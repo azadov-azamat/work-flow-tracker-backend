@@ -1,0 +1,41 @@
+{
+  "name": "work-flow-tracker-backend",
+  "version": "1.0.0",
+  "main": "bin/www",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "t.me/azadov-azamat",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.2",
+    "camelize": "^1.0.1",
+    "cookie": "^0.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonapi-serializer": "^3.6.9",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.37.3",
+    "time-constants": "^1.0.3",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^7.0.0"
+  }
+}
